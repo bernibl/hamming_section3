@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var hamming = require('./hamming');
+var	word = process.argv[2];
+var	word2 = process.argv[3];
+
+console.log(hamming.compute(word, word2));
